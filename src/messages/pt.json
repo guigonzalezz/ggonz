@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Guilherme Gonzalez | Engenheiro de Software",
+    "description": "Engenheiro de Software criando experiências digitais responsivas, intuitivas e visualmente impactantes com paixão por tecnologias web."
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "experiences": "Experiências",
+    "projects": "Projetos",
+    "now": "Agora"
+  },
+  "header": {
+    "logo": "ggonz.com",
+    "toggleTheme": "Alternar tema",
+    "selectLanguage": "Selecionar idioma",
+    "menu": "Menu"
+  },
+  "footer": {
+    "copyright": "© 2018 - 2026"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "home": {
+    "greeting": "Olá, eu sou",
+    "name": "Guilherme Gonzalez",
+    "role": "Engenheiro de Software",
+    "tagline": "Construindo produtos digitais para saúde, finanças, logística e mais. Baseado no Brasil, trabalhando globalmente.",
+    "learnMore": "Saiba mais sobre mim",
+    "viewProjects": "Veja o que estou construindo",
+    "connectWithMe": "Entre em contato",
+    "email": "Email",
+    "featuredExperiences": "Experiências",
+    "viewAll": "Ver todas ({count})",
+    "experiments": "Experimentos",
+    "thoughts": "Pensamentos",
+    "githubStats": "Estatísticas do GitHub",
+    "contributions": "Contribuições",
+    "stars": "Estrelas",
+    "yearsActive": "Anos Ativos",
+    "repositories": "Repositórios"
+  },
+  "about": {
+    "title": "Sobre",
+    "subtitle": "Um pouco sobre mim e minha jornada",
+    "intro": {
+      "p1": "Olá, eu sou Guilherme Gonzalez. Atualmente sou Engenheiro de Software baseado no Brasil, criando experiências digitais intuitivas e polidas com foco em detalhes e design centrado no usuário.",
+      "p2": "Minhas principais áreas de atuação incluem React e Next.js no front-end, e Express com MySQL no back-end. Uso Docker para manter ambientes limpos e portáteis, e tenho explorado ecossistemas cloud para deploys edge."
+    },
+    "journey": {
+      "title": "Minha Jornada",
+      "p1": "Comecei minha carreira em TI em abril de 2018 como Analista de Suporte, onde aprendi os fundamentos de troubleshooting e entendimento das necessidades dos usuários. Após quase 3 anos, fiz a transição completa para Engenharia de Software em 2021.",
+      "p2": "Desde então, trabalhei em múltiplas indústrias — saúde, finanças, bens de consumo, energia, imobiliário e logística — construindo desde aplicativos mobile até arquiteturas complexas de microserviços."
+    },
+    "expertise": {
+      "title": "Expertise Técnica",
+      "description": "Me considero especialista em JavaScript/TypeScript e seu ecossistema.",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "devops": "DevOps & Cloud",
+      "databases": "Bancos de Dados",
+      "tools": "Ferramentas & Outros"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "portuguese": "Português",
+      "english": "Inglês",
+      "german": "Alemão",
+      "native": "Nativo",
+      "advanced": "Avançado",
+      "beginner": "Iniciante"
+    },
+    "education": {
+      "title": "Educação",
+      "bachelors": {
+        "degree": "Bacharelado em Sistemas de Informação",
+        "school": "Universidade do Oeste Paulista (UNOESTE)",
+        "period": "2018 - 2022"
+      },
+      "mba": {
+        "degree": "MBA em Desenvolvimento Full-Stack",
+        "school": "Sirius - Rocketseat",
+        "period": "2024 - 2025"
+      }
+    },
+    "certifications": {
+      "title": "Certificações",
+      "items": [
+        "Cloud Fundamentals, Administration and Solution Architect - FIAP",
+        "DevOps & Agile Culture - FIAP",
+        "Desenvolvimento Full-Stack - Alura",
+        "JavaScript Algorithms and Data Structures - freeCodeCamp",
+        "Backend Development (Node, SQL, JavaScript, REST) - HackerRank"
+      ]
+    },
+    "interests": {
+      "title": "Interesses",
+      "p1": "Além do trabalho, sou apaixonado por IA e LLMs, explorando como podemos integrá-los para melhorar nosso dia a dia e construir ferramentas poderosas.",
+      "p2": "Também gosto de jogos de estratégia, experimentar na cozinha e ocasionalmente escrever sobre tecnologia e experiências pessoais."
+    },
+    "photos": {
+      "title": "Alguns momentos"
+    }
+  },
+  "experiences": {
+    "title": "Experiências",
+    "subtitle": "Uma coleção de projetos profissionais nos quais trabalhei ao longo da minha carreira.",
+    "filterBySector": "Filtrar por setor",
+    "filterByTech": "Filtrar por tecnologia",
+    "clearFilters": "Limpar filtros",
+    "allSectors": "Todos os setores",
+    "allTechnologies": "Todas as tecnologias",
+    "viewDetails": "Ver detalhes",
+    "noResults": "Nenhuma experiência corresponde aos filtros selecionados.",
+    "sectors": {
+      "healthcare": "Saúde",
+      "finance": "Finanças",
+      "consumer-goods": "Bens de Consumo",
+      "energy": "Energia",
+      "real-estate": "Imobiliário",
+      "logistics": "Logística",
+      "technology": "Tecnologia"
+    },
+    "period": {
+      "present": "Presente"
+    },
+    "backToList": "Voltar para experiências"
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Projetos pessoais e aplicações SaaS que construí.",
+    "comingSoon": "Em Breve",
+    "comingSoonDescription": "Estou trabalhando em alguns projetos pessoais e aplicações SaaS empolgantes. Fique ligado para atualizações!"
+  },
+  "now": {
+    "title": "Agora",
+    "subtitle": "O que estou fazendo atualmente.",
+    "comingSoon": "Em Breve",
+    "comingSoonDescription": "Esta página mostrará no que estou trabalhando, aprendendo e explorando atualmente. Volte em breve!"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "tryAgain": "Tentar novamente",
+    "readMore": "Ler mais",
+    "technologies": "Tecnologias",
+    "period": "Período",
+    "company": "Empresa",
+    "role": "Função",
+    "sector": "Setor",
+    "location": "Localização",
+    "remote": "Remoto",
+    "onsite": "Presencial",
+    "brazil": "Brasil",
+    "international": "Internacional"
+  }
+}

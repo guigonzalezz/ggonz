@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Guilherme Gonzalez | Software Engineer",
+    "description": "Software Engineer crafting responsive, intuitive, and visually compelling digital experiences with a passion for web technologies."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "now": "Now"
+  },
+  "header": {
+    "logo": "ggonz.com",
+    "toggleTheme": "Toggle theme",
+    "selectLanguage": "Select language",
+    "menu": "Menu"
+  },
+  "footer": {
+    "copyright": "© 2018 - 2026"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "home": {
+    "greeting": "Hey, I'm",
+    "name": "Guilherme Gonzalez",
+    "role": "Software Engineer",
+    "tagline": "Building digital products across healthcare, finance, logistics, and more. Based in Brazil, working globally.",
+    "learnMore": "Learn more about me",
+    "viewProjects": "See what I'm building",
+    "connectWithMe": "Connect with me",
+    "email": "Email",
+    "featuredExperiences": "Experiences",
+    "viewAll": "View all ({count})",
+    "experiments": "Experiments",
+    "thoughts": "Thoughts",
+    "githubStats": "GitHub Stats",
+    "contributions": "Contributions",
+    "stars": "Stars",
+    "yearsActive": "Years Active",
+    "repositories": "Repositories"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "A bit about me and my journey",
+    "intro": {
+      "p1": "Hey, I'm Guilherme Gonzalez. Currently a Software Engineer based in Brazil, crafting intuitive, polished digital experiences with a focus on detail and user-centered design.",
+      "p2": "My key areas of work include React and Next.js on the front-end, and Express with MySQL on the back-end. I use Docker to keep environments clean and portable, and I've been diving into cloud ecosystems for edge deployments."
+    },
+    "journey": {
+      "title": "My Journey",
+      "p1": "I started my career in IT in April 2018 as a Support Analyst, where I learned the fundamentals of troubleshooting and understanding user needs. After nearly 3 years, I transitioned fully to Software Engineering in 2021.",
+      "p2": "Since then, I've worked across multiple industries — healthcare, finance, consumer goods, energy, real estate, and logistics — building everything from mobile apps to complex microservices architectures."
+    },
+    "expertise": {
+      "title": "Technical Expertise",
+      "description": "I consider myself a specialist in JavaScript/TypeScript and its ecosystem.",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "devops": "DevOps & Cloud",
+      "databases": "Databases",
+      "tools": "Tools & Others"
+    },
+    "languages": {
+      "title": "Languages",
+      "portuguese": "Portuguese",
+      "english": "English",
+      "german": "German",
+      "native": "Native",
+      "advanced": "Advanced",
+      "beginner": "Beginner"
+    },
+    "education": {
+      "title": "Education",
+      "bachelors": {
+        "degree": "Bachelor's Degree in Information Systems",
+        "school": "University of Western São Paulo (UNOESTE)",
+        "period": "2018 - 2022"
+      },
+      "mba": {
+        "degree": "MBA in Full-Stack Development",
+        "school": "Sirius - Rocketseat",
+        "period": "2024 - 2025"
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        "Cloud Fundamentals, Administration and Solution Architect - FIAP",
+        "DevOps & Agile Culture - FIAP",
+        "Full-Stack Development - Alura",
+        "JavaScript Algorithms and Data Structures - freeCodeCamp",
+        "Backend Development (Node, SQL, JavaScript, REST) - HackerRank"
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "p1": "Beyond work, I'm passionate about AI and LLMs, exploring how we can integrate them to improve our daily lives and build powerful tools.",
+      "p2": "I also enjoy strategy video games, experimenting in the kitchen, and occasionally writing about tech and personal experiences."
+    },
+    "photos": {
+      "title": "Some moments"
+    }
+  },
+  "experiences": {
+    "title": "Experiences",
+    "subtitle": "A collection of professional projects I've worked on throughout my career.",
+    "filterBySector": "Filter by sector",
+    "filterByTech": "Filter by technology",
+    "clearFilters": "Clear filters",
+    "allSectors": "All sectors",
+    "allTechnologies": "All technologies",
+    "viewDetails": "View details",
+    "noResults": "No experiences match the selected filters.",
+    "sectors": {
+      "healthcare": "Healthcare",
+      "finance": "Finance",
+      "consumer-goods": "Consumer Goods",
+      "energy": "Energy",
+      "real-estate": "Real Estate",
+      "logistics": "Logistics",
+      "technology": "Technology"
+    },
+    "period": {
+      "present": "Present"
+    },
+    "backToList": "Back to experiences"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Personal projects and SaaS applications I've built.",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "I'm working on some exciting personal projects and SaaS applications. Stay tuned for updates!"
+  },
+  "now": {
+    "title": "Now",
+    "subtitle": "What I'm currently up to.",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "This page will showcase what I'm currently working on, learning, and exploring. Check back soon!"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try again",
+    "readMore": "Read more",
+    "technologies": "Technologies",
+    "period": "Period",
+    "company": "Company",
+    "role": "Role",
+    "sector": "Sector",
+    "location": "Location",
+    "remote": "Remote",
+    "onsite": "On-site",
+    "brazil": "Brazil",
+    "international": "International"
+  }
+}

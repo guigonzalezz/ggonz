@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Guilherme Gonzalez | Softwareentwickler",
+    "description": "Softwareentwickler, der reaktionsschnelle, intuitive und visuell ansprechende digitale Erlebnisse mit Leidenschaft für Webtechnologien schafft."
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "experiences": "Erfahrungen",
+    "projects": "Projekte",
+    "now": "Jetzt"
+  },
+  "header": {
+    "logo": "ggonz.com",
+    "toggleTheme": "Thema wechseln",
+    "selectLanguage": "Sprache auswählen",
+    "menu": "Menü"
+  },
+  "footer": {
+    "copyright": "© 2018 - 2026"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "home": {
+    "greeting": "Hallo, ich bin",
+    "name": "Guilherme Gonzalez",
+    "role": "Softwareentwickler",
+    "tagline": "Entwickle digitale Produkte für Gesundheit, Finanzen, Logistik und mehr. In Brasilien ansässig, weltweit tätig.",
+    "learnMore": "Mehr über mich",
+    "viewProjects": "Sieh was ich baue",
+    "connectWithMe": "Kontaktiere mich",
+    "email": "E-Mail",
+    "featuredExperiences": "Erfahrungen",
+    "viewAll": "Alle anzeigen ({count})",
+    "experiments": "Experimente",
+    "thoughts": "Gedanken",
+    "githubStats": "GitHub-Statistiken",
+    "contributions": "Beiträge",
+    "stars": "Sterne",
+    "yearsActive": "Jahre Aktiv",
+    "repositories": "Repositories"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Ein bisschen über mich und meinen Werdegang",
+    "intro": {
+      "p1": "Hallo, ich bin Guilherme Gonzalez. Derzeit bin ich Softwareentwickler in Brasilien und schaffe intuitive, ausgefeilte digitale Erlebnisse mit Fokus auf Details und benutzerzentriertes Design.",
+      "p2": "Meine Hauptarbeitsbereiche umfassen React und Next.js im Frontend sowie Express mit MySQL im Backend. Ich verwende Docker, um Umgebungen sauber und portabel zu halten, und tauche in Cloud-Ökosysteme für Edge-Deployments ein."
+    },
+    "journey": {
+      "title": "Mein Werdegang",
+      "p1": "Ich begann meine Karriere in der IT im April 2018 als Support-Analyst, wo ich die Grundlagen der Fehlerbehebung und das Verständnis von Benutzerbedürfnissen lernte. Nach fast 3 Jahren wechselte ich 2021 vollständig zur Softwareentwicklung.",
+      "p2": "Seitdem habe ich in mehreren Branchen gearbeitet — Gesundheitswesen, Finanzen, Konsumgüter, Energie, Immobilien und Logistik — und alles von mobilen Apps bis hin zu komplexen Microservice-Architekturen entwickelt."
+    },
+    "expertise": {
+      "title": "Technische Expertise",
+      "description": "Ich betrachte mich als Spezialist für JavaScript/TypeScript und dessen Ökosystem.",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "devops": "DevOps & Cloud",
+      "databases": "Datenbanken",
+      "tools": "Tools & Sonstiges"
+    },
+    "languages": {
+      "title": "Sprachen",
+      "portuguese": "Portugiesisch",
+      "english": "Englisch",
+      "german": "Deutsch",
+      "native": "Muttersprache",
+      "advanced": "Fortgeschritten",
+      "beginner": "Anfänger"
+    },
+    "education": {
+      "title": "Ausbildung",
+      "bachelors": {
+        "degree": "Bachelor in Informationssysteme",
+        "school": "Universität des Westens von São Paulo (UNOESTE)",
+        "period": "2018 - 2022"
+      },
+      "mba": {
+        "degree": "MBA in Full-Stack-Entwicklung",
+        "school": "Sirius - Rocketseat",
+        "period": "2024 - 2025"
+      }
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "items": [
+        "Cloud Fundamentals, Administration and Solution Architect - FIAP",
+        "DevOps & Agile Culture - FIAP",
+        "Full-Stack-Entwicklung - Alura",
+        "JavaScript Algorithms and Data Structures - freeCodeCamp",
+        "Backend Development (Node, SQL, JavaScript, REST) - HackerRank"
+      ]
+    },
+    "interests": {
+      "title": "Interessen",
+      "p1": "Neben der Arbeit begeistere ich mich für KI und LLMs und erkunde, wie wir sie integrieren können, um unseren Alltag zu verbessern und leistungsstarke Tools zu bauen.",
+      "p2": "Ich genieße auch Strategiespiele, Experimente in der Küche und schreibe gelegentlich über Technologie und persönliche Erfahrungen."
+    },
+    "photos": {
+      "title": "Einige Momente"
+    }
+  },
+  "experiences": {
+    "title": "Erfahrungen",
+    "subtitle": "Eine Sammlung professioneller Projekte, an denen ich im Laufe meiner Karriere gearbeitet habe.",
+    "filterBySector": "Nach Branche filtern",
+    "filterByTech": "Nach Technologie filtern",
+    "clearFilters": "Filter löschen",
+    "allSectors": "Alle Branchen",
+    "allTechnologies": "Alle Technologien",
+    "viewDetails": "Details anzeigen",
+    "noResults": "Keine Erfahrungen entsprechen den ausgewählten Filtern.",
+    "sectors": {
+      "healthcare": "Gesundheitswesen",
+      "finance": "Finanzen",
+      "consumer-goods": "Konsumgüter",
+      "energy": "Energie",
+      "real-estate": "Immobilien",
+      "logistics": "Logistik",
+      "technology": "Technologie"
+    },
+    "period": {
+      "present": "Heute"
+    },
+    "backToList": "Zurück zu Erfahrungen"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Persönliche Projekte und SaaS-Anwendungen, die ich entwickelt habe.",
+    "comingSoon": "Demnächst",
+    "comingSoonDescription": "Ich arbeite an einigen spannenden persönlichen Projekten und SaaS-Anwendungen. Bleiben Sie dran für Updates!"
+  },
+  "now": {
+    "title": "Jetzt",
+    "subtitle": "Was ich gerade mache.",
+    "comingSoon": "Demnächst",
+    "comingSoonDescription": "Diese Seite wird zeigen, woran ich gerade arbeite, was ich lerne und erkunde. Schauen Sie bald wieder vorbei!"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "tryAgain": "Erneut versuchen",
+    "readMore": "Mehr lesen",
+    "technologies": "Technologien",
+    "period": "Zeitraum",
+    "company": "Unternehmen",
+    "role": "Rolle",
+    "sector": "Branche",
+    "location": "Standort",
+    "remote": "Remote",
+    "onsite": "Vor Ort",
+    "brazil": "Brasilien",
+    "international": "International"
+  }
+}
