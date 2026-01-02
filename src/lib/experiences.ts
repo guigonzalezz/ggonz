@@ -99,19 +99,19 @@ export const experiences: Experience[] = [
     highlights: {
       en: [
         'Integrated LLM capabilities using LangChain for natural language cargo queries',
-        'Built ETL pipeline to sync client data with internal PostgreSQL database',
+        'Maintained ETL pipeline to sync client data with internal PostgreSQL database',
         'Deployed on Kubernetes with GCP for scalable, real-time processing',
         'Implemented Dapr for microservices communication and state management'
       ],
       pt: [
         'Integrei capacidades de LLM usando LangChain para consultas de carga em linguagem natural',
-        'Construí pipeline ETL para sincronizar dados do cliente com banco PostgreSQL interno',
+        'Mantive pipeline ETL para sincronizar dados do cliente com banco PostgreSQL interno',
         'Deploy em Kubernetes com GCP para processamento escalável em tempo real',
         'Implementei Dapr para comunicação de microserviços e gerenciamento de estado'
       ],
       de: [
         'LLM-Funktionen mit LangChain für natürlichsprachliche Frachtabfragen integriert',
-        'ETL-Pipeline zum Synchronisieren von Kundendaten mit interner PostgreSQL-Datenbank erstellt',
+        'ETL-Pipeline zur Synchronisierung von Kundendaten mit interner PostgreSQL-Datenbank gewartet',
         'Auf Kubernetes mit GCP für skalierbare Echtzeit-Verarbeitung bereitgestellt',
         'Dapr für Microservices-Kommunikation und Zustandsverwaltung implementiert'
       ]
@@ -145,19 +145,16 @@ export const experiences: Experience[] = [
       en: [
         'Built dynamic components with TailwindCSS for consistent styling',
         'Integrated with ContentStack headless CMS for content management',
-        'Implemented Jest unit tests for component reliability',
         'Created Storybook documentation for component library'
       ],
       pt: [
         'Construí componentes dinâmicos com TailwindCSS para estilização consistente',
         'Integração com ContentStack headless CMS para gerenciamento de conteúdo',
-        'Implementei testes unitários Jest para confiabilidade dos componentes',
         'Criei documentação Storybook para biblioteca de componentes'
       ],
       de: [
         'Dynamische Komponenten mit TailwindCSS für konsistentes Styling erstellt',
         'Integration mit ContentStack Headless CMS für Content-Management',
-        'Jest-Unit-Tests für Komponenten-Zuverlässigkeit implementiert',
         'Storybook-Dokumentation für Komponentenbibliothek erstellt'
       ]
     }
@@ -278,22 +275,19 @@ export const experiences: Experience[] = [
     },
     highlights: {
       en: [
-        'Built client portal with Next.js, Chakra UI, and Node.js',
+        'Implemented new features and built reusable components for client portal with Next.js, Chakra UI, and Node.js',
         'Developed internal administration platform',
         'Led legacy to modern stack migration strategy',
-        'Deployed via Azure DevOps CI/CD pipelines'
       ],
       pt: [
-        'Construí portal do cliente com Next.js, Chakra UI e Node.js',
+        'Implementei novas funcionalidades e criei componentes reutilizáveis para portal do cliente com Next.js, Chakra UI e Node.js',
         'Desenvolvi plataforma de administração interna',
         'Liderei estratégia de migração de legado para stack moderna',
-        'Deploy via pipelines CI/CD do Azure DevOps'
       ],
       de: [
-        'Kundenportal mit Next.js, Chakra UI und Node.js erstellt',
+        'Neue Features implementiert und wiederverwendbare Komponenten für Kundenportal mit Next.js, Chakra UI und Node.js erstellt',
         'Interne Administrationsplattform entwickelt',
         'Migrationsstrategie von Legacy zu modernem Stack geleitet',
-        'Bereitstellung über Azure DevOps CI/CD-Pipelines'
       ]
     }
   },

@@ -98,12 +98,21 @@
       ]
     },
     "interests": {
-      "title": "Interests",
-      "p1": "Beyond work, I'm passionate about AI and LLMs, exploring how we can integrate them to improve our daily lives and build powerful tools.",
-      "p2": "I also enjoy strategy video games, experimenting in the kitchen, and occasionally writing about tech and personal experiences."
+      "title": "Beyond Work",
+      "p1": "When I'm not coding, you'll likely find me on the mats training Brazilian Jiu-Jitsu. It's been a passion of mine that teaches discipline, problem-solving, and humility — lessons that translate surprisingly well into software development.",
+      "p2": "I love traveling and exploring new cultures. Whether it's a weekend trip to a nearby city or an adventure abroad, experiencing different places and meeting new people is something that truly enriches my life.",
+      "p3": "Cooking is another creative outlet for me. I enjoy experimenting with new recipes and cuisines, turning the kitchen into my own little laboratory. There's something deeply satisfying about creating a delicious meal from scratch.",
+      "p4": "I'm also passionate about AI and LLMs, always exploring how we can integrate them to improve our daily lives and build powerful tools. And yes, I still make time for strategy video games when I can!"
     },
     "photos": {
-      "title": "Some moments"
+      "title": "Some moments",
+      "alt1": "Landscape in Lauterbrunnen, Switzerland",
+      "alt2": "My blue belt graduation in Brazilian Jiu-Jitsu",
+      "alt3": "Me as a child playing Diablo",
+      "alt4": "Cabbage with sausage dish in Germany",
+      "alt5": "Me in the Netherlands",
+      "alt6": "Beer at a Biergarten in Germany",
+      "alt7": "Me on a mountain in Interlaken, Switzerland"
     }
   },
   "experiences": {

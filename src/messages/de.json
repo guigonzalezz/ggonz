@@ -98,12 +98,21 @@
       ]
     },
     "interests": {
-      "title": "Interessen",
-      "p1": "Neben der Arbeit begeistere ich mich für KI und LLMs und erkunde, wie wir sie integrieren können, um unseren Alltag zu verbessern und leistungsstarke Tools zu bauen.",
-      "p2": "Ich genieße auch Strategiespiele, Experimente in der Küche und schreibe gelegentlich über Technologie und persönliche Erfahrungen."
+      "title": "Jenseits der Arbeit",
+      "p1": "Wenn ich nicht programmiere, findet man mich wahrscheinlich auf der Matte beim Brazilian Jiu-Jitsu Training. Es ist eine Leidenschaft von mir, die Disziplin, Problemlösung und Bescheidenheit lehrt — Lektionen, die sich überraschend gut auf die Softwareentwicklung übertragen lassen.",
+      "p2": "Ich liebe es zu reisen und neue Kulturen zu erkunden. Ob ein Wochenendausflug in eine nahegelegene Stadt oder ein Abenteuer im Ausland, verschiedene Orte zu erleben und neue Menschen kennenzulernen bereichert mein Leben wirklich.",
+      "p3": "Kochen ist ein weiteres kreatives Ventil für mich. Ich experimentiere gerne mit neuen Rezepten und Küchen und verwandle die Küche in mein eigenes kleines Labor. Es ist zutiefst befriedigend, eine köstliche Mahlzeit von Grund auf zu kreieren.",
+      "p4": "Ich begeistere mich auch für KI und LLMs und erkunde ständig, wie wir sie integrieren können, um unseren Alltag zu verbessern und leistungsstarke Tools zu bauen. Und ja, ich nehme mir immer noch Zeit für Strategiespiele, wenn ich kann!"
     },
     "photos": {
-      "title": "Einige Momente"
+      "title": "Einige Momente",
+      "alt1": "Landschaft in Lauterbrunnen, Schweiz",
+      "alt2": "Meine Blaugurt-Graduierung im Brasilianischen Jiu-Jitsu",
+      "alt3": "Ich als Kind beim Diablo spielen",
+      "alt4": "Kohl mit Wurst in Deutschland",
+      "alt5": "Ich in den Niederlanden",
+      "alt6": "Bier in einem Biergarten in Deutschland",
+      "alt7": "Ich auf einem Berg in Interlaken, Schweiz"
     }
   },
   "experiences": {

@@ -19,8 +19,7 @@ src/
 │   │   ├── page.tsx        # Home page
 │   │   ├── about/          # About page
 │   │   ├── experiences/    # Experiences list & detail pages
-│   │   ├── projects/       # Projects (Coming Soon)
-│   │   └── now/            # Now (Coming Soon)
+│   │   └── projects/       # Projects (Coming Soon)
 │   ├── layout.tsx          # Root layout
 │   └── globals.css         # Global styles
 ├── components/
@@ -60,5 +59,3 @@ npm start
 ## 📄 License
 
 MIT License - Feel free to use this as a template for your own portfolio!
-
----

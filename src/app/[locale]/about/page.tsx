@@ -1,10 +1,10 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { PageLayout } from '@/components/templates';
-import { ImagePlaceholder } from '@/components/atoms';
 import { Breadcrumb } from '@/components/molecules';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 
 export default async function AboutPage({
   params,
@@ -63,12 +63,63 @@ function AboutContent() {
       {/* Photos Grid */}
       <section className="space-y-4">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          <ImagePlaceholder className="col-span-1" aspectRatio="square" />
-          <ImagePlaceholder className="col-span-1" aspectRatio="square" />
-          <ImagePlaceholder className="col-span-1 hidden md:flex" aspectRatio="square" />
-          <ImagePlaceholder className="col-span-1" aspectRatio="square" />
-          <ImagePlaceholder className="col-span-1" aspectRatio="square" />
-          <ImagePlaceholder className="col-span-1 hidden md:flex" aspectRatio="square" />
+          {/* Featured photo - spans 2 columns on mobile, 1 on desktop */}
+          <div className="col-span-2 md:col-span-1 aspect-video md:aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/switzerland-interlaken.jpeg"
+              alt={t('photos.alt7')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/switzerland-lauterbrunnen.jpeg"
+              alt={t('photos.alt1')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/jiujitsu-blue-belt.jpeg"
+              alt={t('photos.alt2')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/childhood-diablo.jpeg"
+              alt={t('photos.alt3')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/germany-food.jpeg"
+              alt={t('photos.alt4')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg">
+            <Image
+              src="/photos/netherlands.jpeg"
+              alt={t('photos.alt5')}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="col-span-1 aspect-square relative overflow-hidden rounded-lg hidden md:block">
+            <Image
+              src="/photos/germany-biergarten.jpeg"
+              alt={t('photos.alt6')}
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
@@ -201,6 +252,12 @@ function AboutContent() {
         </p>
         <p className="text-sm text-muted-foreground leading-relaxed">
           {t('interests.p2')}
+        </p>
+        <p className="text-sm text-muted-foreground leading-relaxed">
+          {t('interests.p3')}
+        </p>
+        <p className="text-sm text-muted-foreground leading-relaxed">
+          {t('interests.p4')}
         </p>
       </section>
     </div>

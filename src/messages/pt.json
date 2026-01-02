@@ -98,12 +98,21 @@
       ]
     },
     "interests": {
-      "title": "Interesses",
-      "p1": "Além do trabalho, sou apaixonado por IA e LLMs, explorando como podemos integrá-los para melhorar nosso dia a dia e construir ferramentas poderosas.",
-      "p2": "Também gosto de jogos de estratégia, experimentar na cozinha e ocasionalmente escrever sobre tecnologia e experiências pessoais."
+      "title": "Além do Trabalho",
+      "p1": "Quando não estou programando, provavelmente você me encontrará no tatame treinando Jiu-Jitsu Brasileiro. É uma paixão minha que ensina disciplina, resolução de problemas e humildade — lições que se traduzem surpreendentemente bem para o desenvolvimento de software.",
+      "p2": "Amo viajar e explorar novas culturas. Seja uma viagem de fim de semana para uma cidade próxima ou uma aventura no exterior, experimentar lugares diferentes e conhecer pessoas novas é algo que realmente enriquece minha vida.",
+      "p3": "Cozinhar é outra válvula criativa para mim. Gosto de experimentar novas receitas e cozinhas, transformando a cozinha no meu próprio laboratório. Há algo profundamente satisfatório em criar uma refeição deliciosa do zero.",
+      "p4": "Também sou apaixonado por IA e LLMs, sempre explorando como podemos integrá-los para melhorar nosso dia a dia e construir ferramentas poderosas. E sim, ainda reservo tempo para jogos de estratégia quando posso!"
     },
     "photos": {
-      "title": "Alguns momentos"
+      "title": "Alguns momentos",
+      "alt1": "Paisagem em Lauterbrunnen, Suíça",
+      "alt2": "Minha graduação para faixa azul no Jiu-Jitsu Brasileiro",
+      "alt3": "Eu na infância jogando Diablo",
+      "alt4": "Prato de repolho com linguiça na Alemanha",
+      "alt5": "Eu na Holanda",
+      "alt6": "Cerveja em um Biergarten na Alemanha",
+      "alt7": "Eu em uma montanha em Interlaken, Suíça"
     }
   },
   "experiences": {
