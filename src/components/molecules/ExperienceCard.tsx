@@ -14,7 +14,7 @@ interface ExperienceCardProps {
 }
 
 export function ExperienceCard({ experience, variant = 'compact', className }: ExperienceCardProps) {
-  const locale = useLocale() as 'en' | 'pt' | 'de';
+  const locale = useLocale() as 'en' | 'pt' | 'de' | 'ru';
 
   const title = experience.titles[locale];
   const shortDescription = experience.shortDescriptions[locale];

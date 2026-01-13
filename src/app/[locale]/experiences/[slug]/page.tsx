@@ -38,7 +38,7 @@ export default async function ExperienceDetailPage({
 }
 
 function ExperienceDetailContent({ slug }: { slug: string }) {
-  const locale = useLocale() as 'en' | 'pt' | 'de';
+  const locale = useLocale() as 'en' | 'pt' | 'de' | 'ru';
   const t = useTranslations('experiences');
   const navT = useTranslations('navigation');
 

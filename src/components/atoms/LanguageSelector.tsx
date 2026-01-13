@@ -15,14 +15,16 @@ import { routing } from '@/i18n/routing';
 
 const languageNames: Record<string, string> = {
   en: 'English',
-  pt: 'Português',
-  de: 'Deutsch',
+  pt: 'Portuguese',
+  de: 'German',
+  ru: 'Russian',
 };
 
 const languageFlags: Record<string, string> = {
   en: '🇺🇸',
   pt: '🇧🇷',
   de: '🇩🇪',
+  ru: '🇷🇺',
 };
 
 export function LanguageSelector() {
@@ -32,7 +34,7 @@ export function LanguageSelector() {
   const t = useTranslations('header');
 
   const handleLocaleChange = (newLocale: string) => {
-    router.replace(pathname, { locale: newLocale as 'en' | 'pt' | 'de' });
+    router.replace(pathname, { locale: newLocale as 'en' | 'pt' | 'de' | 'ru' });
   };
 
   return (

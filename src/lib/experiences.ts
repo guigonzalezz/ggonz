@@ -46,6 +46,7 @@ export interface Experience {
     en: string;
     pt: string;
     de: string;
+    ru: string;
   };
   sector: Sector;
   technologies: Technology[];
@@ -53,21 +54,25 @@ export interface Experience {
     en: string;
     pt: string;
     de: string;
+    ru: string;
   };
   descriptions: {
     en: string;
     pt: string;
     de: string;
+    ru: string;
   };
   shortDescriptions: {
     en: string;
     pt: string;
     de: string;
+    ru: string;
   };
   highlights: {
     en: string[];
     pt: string[];
     de: string[];
+    ru: string[];
   };
 }
 
@@ -77,24 +82,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Santa Monica, CA, USA',
       pt: 'Santa Monica, CA, EUA',
-      de: 'Santa Monica, CA, USA'
+      de: 'Santa Monica, CA, USA',
+      ru: 'Санта-Моника, Калифорния, США'
     },
     sector: 'logistics',
     technologies: ['typescript', 'nodejs', 'langchain', 'postgresql', 'docker', 'kubernetes', 'gcp'],
     titles: {
       en: 'AI-Powered Cargo Tracking Tool',
       pt: 'Ferramenta de Rastreamento de Cargas com IA',
-      de: 'KI-gestütztes Frachtverfolgungstool'
+      de: 'KI-gestütztes Frachtverfolgungstool',
+      ru: 'Инструмент отслеживания грузов на базе ИИ'
     },
     shortDescriptions: {
       en: 'Microsoft Teams and Outlook integration with LLM-powered cargo tracking',
       pt: 'Integração com Microsoft Teams e Outlook com rastreamento de cargas via LLM',
-      de: 'Microsoft Teams und Outlook Integration mit LLM-gestützter Frachtverfolgung'
+      de: 'Microsoft Teams und Outlook Integration mit LLM-gestützter Frachtverfolgung',
+      ru: 'Интеграция Microsoft Teams и Outlook с отслеживанием грузов на базе LLM'
     },
     descriptions: {
       en: 'Built an AI-powered tool for Microsoft Teams and Outlook that enables users to query cargo tracking information through a conversational interface. The system uses LangChain and LangSmith to process queries and provide real-time responses from a PostgreSQL database populated via an ETL pipeline.',
       pt: 'Construí uma ferramenta com IA para Microsoft Teams e Outlook que permite aos usuários consultar informações de rastreamento de cargas através de uma interface conversacional. O sistema usa LangChain e LangSmith para processar consultas e fornecer respostas em tempo real de um banco de dados PostgreSQL alimentado via pipeline ETL.',
-      de: 'Entwickelte ein KI-gestütztes Tool für Microsoft Teams und Outlook, das Benutzern ermöglicht, Frachtverfolgungsinformationen über eine Konversationsschnittstelle abzufragen. Das System verwendet LangChain und LangSmith zur Verarbeitung von Anfragen und liefert Echtzeit-Antworten aus einer PostgreSQL-Datenbank, die über eine ETL-Pipeline befüllt wird.'
+      de: 'Entwickelte ein KI-gestütztes Tool für Microsoft Teams und Outlook, das Benutzern ermöglicht, Frachtverfolgungsinformationen über eine Konversationsschnittstelle abzufragen. Das System verwendet LangChain und LangSmith zur Verarbeitung von Anfragen und liefert Echtzeit-Antworten aus einer PostgreSQL-Datenbank, die über eine ETL-Pipeline befüllt wird.',
+      ru: 'Разработал инструмент на базе ИИ для Microsoft Teams и Outlook, который позволяет пользователям запрашивать информацию об отслеживании грузов через диалоговый интерфейс. Система использует LangChain и LangSmith для обработки запросов и предоставления ответов в реальном времени из базы данных PostgreSQL, наполняемой через ETL-конвейер.'
     },
     highlights: {
       en: [
@@ -114,6 +123,12 @@ export const experiences: Experience[] = [
         'ETL-Pipeline zur Synchronisierung von Kundendaten mit interner PostgreSQL-Datenbank gewartet',
         'Auf Kubernetes mit GCP für skalierbare Echtzeit-Verarbeitung bereitgestellt',
         'Dapr für Microservices-Kommunikation und Zustandsverwaltung implementiert'
+      ],
+      ru: [
+        'Интегрировал возможности LLM с использованием LangChain для запросов о грузах на естественном языке',
+        'Поддерживал ETL-конвейер для синхронизации данных клиентов с внутренней базой данных PostgreSQL',
+        'Развернул на Kubernetes с GCP для масштабируемой обработки в реальном времени',
+        'Внедрил Dapr для взаимодействия микросервисов и управления состоянием'
       ]
     }
   },
@@ -122,24 +137,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Atlanta, GA, USA',
       pt: 'Atlanta, GA, EUA',
-      de: 'Atlanta, GA, USA'
+      de: 'Atlanta, GA, USA',
+      ru: 'Атланта, Джорджия, США'
     },
     sector: 'technology',
     technologies: ['nextjs', 'typescript', 'tailwindcss', 'contentstack'],
     titles: {
       en: 'Engineering Company Website',
       pt: 'Website de Empresa de Engenharia',
-      de: 'Website für Ingenieurbüro'
+      de: 'Website für Ingenieurbüro',
+      ru: 'Веб-сайт инжиниринговой компании'
     },
     shortDescriptions: {
       en: 'Modern Next.js website with ContentStack CMS integration',
       pt: 'Website moderno em Next.js com integração ContentStack CMS',
-      de: 'Moderne Next.js-Website mit ContentStack CMS-Integration'
+      de: 'Moderne Next.js-Website mit ContentStack CMS-Integration',
+      ru: 'Современный веб-сайт на Next.js с интеграцией ContentStack CMS'
     },
     descriptions: {
       en: 'Developed reusable Next.js components integrated with ContentStack CMS for a major engineering company. The project focused on creating a scalable component library that content editors could easily use to build and manage pages.',
       pt: 'Desenvolvi componentes Next.js reutilizáveis integrados com ContentStack CMS para uma grande empresa de engenharia. O projeto focou na criação de uma biblioteca de componentes escalável que editores de conteúdo pudessem usar facilmente para construir e gerenciar páginas.',
-      de: 'Entwickelte wiederverwendbare Next.js-Komponenten integriert mit ContentStack CMS für ein großes Ingenieurbüro. Das Projekt konzentrierte sich auf die Erstellung einer skalierbaren Komponentenbibliothek, die Inhaltsredakteure einfach zum Erstellen und Verwalten von Seiten verwenden können.'
+      de: 'Entwickelte wiederverwendbare Next.js-Komponenten integriert mit ContentStack CMS für ein großes Ingenieurbüro. Das Projekt konzentrierte sich auf die Erstellung einer skalierbaren Komponentenbibliothek, die Inhaltsredakteure einfach zum Erstellen und Verwalten von Seiten verwenden können.',
+      ru: 'Разработал повторно используемые компоненты Next.js, интегрированные с ContentStack CMS для крупной инжиниринговой компании. Проект был сосредоточен на создании масштабируемой библиотеки компонентов, которую редакторы контента могли бы легко использовать для создания и управления страницами.'
     },
     highlights: {
       en: [
@@ -156,6 +175,11 @@ export const experiences: Experience[] = [
         'Dynamische Komponenten mit TailwindCSS für konsistentes Styling erstellt',
         'Integration mit ContentStack Headless CMS für Content-Management',
         'Storybook-Dokumentation für Komponentenbibliothek erstellt'
+      ],
+      ru: [
+        'Создал динамические компоненты с TailwindCSS для единого стиля',
+        'Интегрировал с ContentStack headless CMS для управления контентом',
+        'Создал документацию Storybook для библиотеки компонентов'
       ]
     }
   },
@@ -164,24 +188,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Atlanta, GA, USA',
       pt: 'Atlanta, GA, EUA',
-      de: 'Atlanta, GA, USA'
+      de: 'Atlanta, GA, USA',
+      ru: 'Атланта, Джорджия, США'
     },
     sector: 'real-estate',
     technologies: ['nextjs', 'typescript', 'sass', 'sitecore'],
     titles: {
       en: 'Real Estate Platform',
       pt: 'Plataforma Imobiliária',
-      de: 'Immobilienplattform'
+      de: 'Immobilienplattform',
+      ru: 'Платформа недвижимости'
     },
     shortDescriptions: {
       en: 'Property showcase website with Sitecore CMS',
       pt: 'Website de exibição de propriedades com Sitecore CMS',
-      de: 'Immobilien-Showcase-Website mit Sitecore CMS'
+      de: 'Immobilien-Showcase-Website mit Sitecore CMS',
+      ru: 'Веб-сайт для демонстрации недвижимости с Sitecore CMS'
     },
     descriptions: {
       en: 'Created frontend components for a real estate company website using Next.js and Sitecore CMS. The platform showcases property listings with advanced filtering and search capabilities, optimized for both desktop and mobile experiences.',
       pt: 'Criei componentes frontend para um website de empresa imobiliária usando Next.js e Sitecore CMS. A plataforma exibe listagens de propriedades com filtros avançados e capacidades de busca, otimizada para experiências desktop e mobile.',
-      de: 'Frontend-Komponenten für eine Immobilien-Website mit Next.js und Sitecore CMS erstellt. Die Plattform zeigt Immobilienangebote mit erweiterten Filter- und Suchfunktionen, optimiert für Desktop- und Mobile-Erlebnisse.'
+      de: 'Frontend-Komponenten für eine Immobilien-Website mit Next.js und Sitecore CMS erstellt. Die Plattform zeigt Immobilienangebote mit erweiterten Filter- und Suchfunktionen, optimiert für Desktop- und Mobile-Erlebnisse.',
+      ru: 'Создал фронтенд-компоненты для веб-сайта компании по недвижимости, используя Next.js и Sitecore CMS. Платформа демонстрирует списки недвижимости с расширенными возможностями фильтрации и поиска, оптимизированными как для настольных, так и для мобильных устройств.'
     },
     highlights: {
       en: [
@@ -201,6 +229,12 @@ export const experiences: Experience[] = [
         'Integration mit Sitecore CMS für Content-Management',
         'Performance mit Next.js Static Generation optimiert',
         'Erweiterte Immobiliensuche und Filterung implementiert'
+      ],
+      ru: [
+        'Разработал адаптивные компоненты с SASS для списков недвижимости',
+        'Интегрировал с Sitecore CMS для управления контентом',
+        'Оптимизировал производительность с помощью статической генерации Next.js',
+        'Реализовал расширенный поиск и фильтрацию недвижимости'
       ]
     }
   },
@@ -209,24 +243,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Atlanta, GA, USA',
       pt: 'Atlanta, GA, EUA',
-      de: 'Atlanta, GA, USA'
+      de: 'Atlanta, GA, USA',
+      ru: 'Атланта, Джорджия, США'
     },
     sector: 'energy',
     technologies: ['nextjs', 'typescript', 'tailwindcss', 'contentstack'],
     titles: {
       en: 'Energy Company Website',
       pt: 'Website de Empresa de Energia',
-      de: 'Website für Energieunternehmen'
+      de: 'Website für Energieunternehmen',
+      ru: 'Веб-сайт энергетической компании'
     },
     shortDescriptions: {
       en: 'Corporate website with headless CMS architecture',
       pt: 'Website corporativo com arquitetura headless CMS',
-      de: 'Unternehmenswebsite mit Headless-CMS-Architektur'
+      de: 'Unternehmenswebsite mit Headless-CMS-Architektur',
+      ru: 'Корпоративный веб-сайт с архитектурой headless CMS'
     },
     descriptions: {
       en: 'Built frontend components for an energy sector company using Next.js and ContentStack CMS. The project emphasized performance, accessibility, and a clean design system that reflected the company\'s brand identity.',
       pt: 'Construí componentes frontend para uma empresa do setor de energia usando Next.js e ContentStack CMS. O projeto enfatizou performance, acessibilidade e um sistema de design limpo que refletia a identidade da marca da empresa.',
-      de: 'Frontend-Komponenten für ein Energieunternehmen mit Next.js und ContentStack CMS erstellt. Das Projekt betonte Performance, Barrierefreiheit und ein sauberes Designsystem, das die Markenidentität des Unternehmens widerspiegelt.'
+      de: 'Frontend-Komponenten für ein Energieunternehmen mit Next.js und ContentStack CMS erstellt. Das Projekt betonte Performance, Barrierefreiheit und ein sauberes Designsystem, das die Markenidentität des Unternehmens widerspiegelt.',
+      ru: 'Создал фронтенд-компоненты для компании энергетического сектора, используя Next.js и ContentStack CMS. В проекте уделялось особое внимание производительности, доступности и чистой дизайн-системе, отражающей фирменный стиль компании.'
     },
     highlights: {
       en: [
@@ -246,6 +284,12 @@ export const experiences: Experience[] = [
         'ContentStack-Integration für dynamische Inhalte implementiert',
         'WCAG-Barrierefreiheits-Konformität sichergestellt',
         'Docker und Docker Compose für Entwicklung eingerichtet'
+      ],
+      ru: [
+        'Создал модульную систему компонентов с TailwindCSS',
+        'Реализовал интеграцию ContentStack для динамического контента',
+        'Обеспечил соответствие требованиям доступности WCAG',
+        'Настроил Docker и Docker Compose для разработки'
       ]
     }
   },
@@ -254,24 +298,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Granite Bay, CA, USA',
       pt: 'Granite Bay, CA, EUA',
-      de: 'Granite Bay, CA, USA'
+      de: 'Granite Bay, CA, USA',
+      ru: 'Гранит-Бэй, Калифорния, США'
     },
     sector: 'finance',
     technologies: ['nextjs', 'typescript', 'nodejs', 'tailwindcss', 'azure'],
     titles: {
       en: 'Investment Management Platform',
       pt: 'Plataforma de Gestão de Investimentos',
-      de: 'Investmentverwaltungsplattform'
+      de: 'Investmentverwaltungsplattform',
+      ru: 'Платформа управления инвестициями'
     },
     shortDescriptions: {
       en: 'Multi-layer web platform for investment company',
       pt: 'Plataforma web multicamadas para empresa de investimentos',
-      de: 'Multi-Layer-Webplattform für Investmentunternehmen'
+      de: 'Multi-Layer-Webplattform für Investmentunternehmen',
+      ru: 'Многоуровневая веб-платформа для инвестиционной компании'
     },
     descriptions: {
       en: 'Developed and maintained client-facing and internal platforms for an investment company. Led the migration from legacy systems to modern tech stacks, defining migration strategies and establishing project architecture patterns.',
       pt: 'Desenvolvi e mantive plataformas voltadas ao cliente e internas para uma empresa de investimentos. Liderei a migração de sistemas legados para stacks modernas, definindo estratégias de migração e estabelecendo padrões de arquitetura de projeto.',
-      de: 'Entwickelte und pflegte kundenorientierte und interne Plattformen für ein Investmentunternehmen. Leitete die Migration von Legacy-Systemen zu modernen Tech-Stacks, definierte Migrationsstrategien und etablierte Projektarchitekturmuster.'
+      de: 'Entwickelte und pflegte kundenorientierte und interne Plattformen für ein Investmentunternehmen. Leitete die Migration von Legacy-Systemen zu modernen Tech-Stacks, definierte Migrationsstrategien und etablierte Projektarchitekturmuster.',
+      ru: 'Разрабатывал и поддерживал клиентские и внутренние платформы для инвестиционной компании. Руководил миграцией с устаревших систем на современные технологические стеки, определяя стратегии миграции и устанавливая архитектурные шаблоны проектов.'
     },
     highlights: {
       en: [
@@ -288,6 +336,11 @@ export const experiences: Experience[] = [
         'Neue Features implementiert und wiederverwendbare Komponenten für Kundenportal mit Next.js, Chakra UI und Node.js erstellt',
         'Interne Administrationsplattform entwickelt',
         'Migrationsstrategie von Legacy zu modernem Stack geleitet',
+      ],
+      ru: [
+        'Внедрил новые функции и создал повторно используемые компоненты для клиентского портала с Next.js, Chakra UI и Node.js',
+        'Разработал внутреннюю платформу администрирования',
+        'Руководил стратегией миграции с устаревшего стека на современный'
       ]
     }
   },
@@ -296,24 +349,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Bellingham, WA, USA',
       pt: 'Bellingham, WA, EUA',
-      de: 'Bellingham, WA, USA'
+      de: 'Bellingham, WA, USA',
+      ru: 'Беллингем, Вашингтон, США'
     },
     sector: 'consumer-goods',
     technologies: ['react-native', 'angular', 'typescript', 'nodejs', 'java', 'spring-boot', 'azure'],
     titles: {
       en: 'Cosmetics Retail Mobile Apps',
       pt: 'Aplicativos Mobile para Varejo de Cosméticos',
-      de: 'Mobile Apps für Kosmetik-Einzelhandel'
+      de: 'Mobile Apps für Kosmetik-Einzelhandel',
+      ru: 'Мобильные приложения для розничной торговли косметикой'
     },
     shortDescriptions: {
       en: 'Mobile applications for retail store operations',
       pt: 'Aplicativos mobile para operações de lojas de varejo',
-      de: 'Mobile Anwendungen für Einzelhandelsgeschäftsbetrieb'
+      de: 'Mobile Anwendungen für Einzelhandelsgeschäftsbetrieb',
+      ru: 'Мобильные приложения для работы розничных магазинов'
     },
     descriptions: {
       en: 'Led feature development for a cosmetics holding company\'s retail applications. Performed reverse engineering on legacy NativeScript/Angular app to upgrade to a secure version required by Apple, and created a new React Native app for store employees.',
       pt: 'Liderei o desenvolvimento de features para aplicativos de varejo de uma holding de cosméticos. Realizei engenharia reversa em app legado NativeScript/Angular para atualizar para versão segura exigida pela Apple, e criei novo app React Native para funcionários das lojas.',
-      de: 'Leitete die Feature-Entwicklung für Einzelhandelsanwendungen eines Kosmetik-Holdingkonzerns. Führte Reverse Engineering an Legacy-NativeScript/Angular-App durch, um auf eine von Apple geforderte sichere Version zu aktualisieren, und erstellte eine neue React Native App für Mitarbeiter.'
+      de: 'Leitete die Feature-Entwicklung für Einzelhandelsanwendungen eines Kosmetik-Holdingkonzerns. Führte Reverse Engineering an Legacy-NativeScript/Angular-App durch, um auf eine von Apple geforderte sichere Version zu aktualisieren, und erstellte eine neue React Native App für Mitarbeiter.',
+      ru: 'Руководил разработкой функций для розничных приложений косметического холдинга. Выполнил реверс-инжиниринг устаревшего приложения NativeScript/Angular для обновления до безопасной версии, требуемой Apple, и создал новое приложение React Native для сотрудников магазинов.'
     },
     highlights: {
       en: [
@@ -333,6 +390,12 @@ export const experiences: Experience[] = [
         'React Native App für In-Store-Kundenbenachrichtigungen erstellt',
         'Interne Angular-Plattform mit Java Spring Boot API entwickelt',
         'Support-Ticket-Webapp mit Next.js und Tailwind erstellt'
+      ],
+      ru: [
+        'Реверс-инжиниринг node_modules для обновления приложения NativeScript/Angular',
+        'Создал приложение React Native для уведомлений клиентов в магазине',
+        'Разработал внутреннюю платформу Angular с API Java Spring Boot',
+        'Создал веб-приложение для тикетов поддержки с Next.js и Tailwind'
       ]
     }
   },
@@ -341,24 +404,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Bellingham, WA, USA',
       pt: 'Bellingham, WA, EUA',
-      de: 'Bellingham, WA, USA'
+      de: 'Bellingham, WA, USA',
+      ru: 'Беллингем, Вашингтон, США'
     },
     sector: 'consumer-goods',
     technologies: ['python', 'javascript', 'azure'],
     titles: {
       en: 'Consumer Data ETL Pipeline',
       pt: 'Pipeline ETL de Dados do Consumidor',
-      de: 'ETL-Pipeline für Verbraucherdaten'
+      de: 'ETL-Pipeline für Verbraucherdaten',
+      ru: 'ETL-конвейер потребительских данных'
     },
     shortDescriptions: {
       en: 'Data processing pipeline for enhanced customer experience',
       pt: 'Pipeline de processamento de dados para experiência do cliente aprimorada',
-      de: 'Datenverarbeitungspipeline für verbesserte Kundenerfahrung'
+      de: 'Datenverarbeitungspipeline für verbesserte Kundenerfahrung',
+      ru: 'Конвейер обработки данных для улучшения клиентского опыта'
     },
     descriptions: {
       en: 'Contributed to an ETL system for a multinational cosmetics company that collected and processed consumer data to power endpoint applications used by store employees to enhance customer experiences.',
       pt: 'Contribuí para um sistema ETL de uma multinacional de cosméticos que coletava e processava dados de consumidores para alimentar aplicações de ponta usadas por funcionários das lojas para melhorar experiências dos clientes.',
-      de: 'Trug zu einem ETL-System für ein multinationales Kosmetikunternehmen bei, das Verbraucherdaten sammelte und verarbeitete, um Endpunktanwendungen zu betreiben, die von Mitarbeitern zur Verbesserung der Kundenerfahrung genutzt werden.'
+      de: 'Trug zu einem ETL-System für ein multinationales Kosmetikunternehmen bei, das Verbraucherdaten sammelte und verarbeitete, um Endpunktanwendungen zu betreiben, die von Mitarbeitern zur Verbesserung der Kundenerfahrung genutzt werden.',
+      ru: 'Внес вклад в систему ETL для многонациональной косметической компании, которая собирала и обрабатывала данные потребителей для работы конечных приложений, используемых сотрудниками магазинов для улучшения клиентского опыта.'
     },
     highlights: {
       en: [
@@ -378,6 +445,12 @@ export const experiences: Experience[] = [
         'Datenverarbeitung für Echtzeit-Store-Anwendungen',
         'Integration mit Azure Cloud Services',
         'Zusammenarbeit mit funktionsübergreifenden Datenteams'
+      ],
+      ru: [
+        'Создал конвейеры сбора и обработки данных с Python',
+        'Обрабатывал данные для приложений магазинов в реальном времени',
+        'Интегрировал с облачными сервисами Azure',
+        'Сотрудничал с кросс-функциональными командами данных'
       ]
     }
   },
@@ -386,24 +459,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Bellingham, WA, USA',
       pt: 'Bellingham, WA, EUA',
-      de: 'Bellingham, WA, USA'
+      de: 'Bellingham, WA, USA',
+      ru: 'Беллингем, Вашингтон, США'
     },
     sector: 'finance',
     technologies: ['react', 'typescript', 'java', 'spring-boot'],
     titles: {
       en: 'Solar Energy Fintech Platform',
       pt: 'Plataforma Fintech de Energia Solar',
-      de: 'Solar-Energie-Fintech-Plattform'
+      de: 'Solar-Energie-Fintech-Plattform',
+      ru: 'Финтех-платформа солнечной энергии'
     },
     shortDescriptions: {
       en: 'Financial platform for solar energy investments',
       pt: 'Plataforma financeira para investimentos em energia solar',
-      de: 'Finanzplattform für Solarenergie-Investitionen'
+      de: 'Finanzplattform für Solarenergie-Investitionen',
+      ru: 'Финансовая платформа для инвестиций в солнечную энергию'
     },
     descriptions: {
       en: 'Developed a web application for a fintech company in the solar energy sector. Built the frontend with React and TypeScript, consuming a Java Spring Boot backend API for financial operations and investment management.',
       pt: 'Desenvolvi uma aplicação web para uma fintech do setor de energia solar. Construí o frontend com React e TypeScript, consumindo uma API backend Java Spring Boot para operações financeiras e gestão de investimentos.',
-      de: 'Entwickelte eine Webanwendung für ein Fintech-Unternehmen im Solarenergiesektor. Erstellte das Frontend mit React und TypeScript, das eine Java Spring Boot Backend-API für Finanzoperationen und Investitionsmanagement nutzt.'
+      de: 'Entwickelte eine Webanwendung für ein Fintech-Unternehmen im Solarenergiesektor. Erstellte das Frontend mit React und TypeScript, das eine Java Spring Boot Backend-API für Finanzoperationen und Investitionsmanagement nutzt.',
+      ru: 'Разработал веб-приложение для финтех-компании в секторе солнечной энергии. Создал фронтенд с React и TypeScript, использующий API бэкенда Java Spring Boot для финансовых операций и управления инвестициями.'
     },
     highlights: {
       en: [
@@ -423,6 +500,12 @@ export const experiences: Experience[] = [
         'Integration mit Java Spring Boot Finanz-APIs',
         'Investitionsmanagement-Features implementiert',
         'Wiederverwendbare Komponentenbibliothek erstellt'
+      ],
+      ru: [
+        'Создал адаптивный фронтенд на React с TypeScript',
+        'Интегрировал с финансовыми API Java Spring Boot',
+        'Реализовал функции управления инвестициями',
+        'Создал библиотеку повторно используемых компонентов'
       ]
     }
   },
@@ -431,24 +514,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'São Paulo, SP, Brazil',
       pt: 'São Paulo, SP, Brasil',
-      de: 'São Paulo, SP, Brasilien'
+      de: 'São Paulo, SP, Brasilien',
+      ru: 'Сан-Паулу, Бразилия'
     },
     sector: 'healthcare',
     technologies: ['react', 'nextjs', 'nodejs', 'nestjs', 'mysql', 'postgresql', 'php', 'docker', 'gcp', 'bigquery', 'powerbi'],
     titles: {
       en: 'Healthcare Multi-Platform System',
       pt: 'Sistema Multi-Plataforma de Saúde',
-      de: 'Healthcare Multi-Plattform-System'
+      de: 'Healthcare Multi-Plattform-System',
+      ru: 'Мультиплатформенная система здравоохранения'
     },
     shortDescriptions: {
       en: 'Comprehensive healthcare platform with multiple services',
       pt: 'Plataforma abrangente de saúde com múltiplos serviços',
-      de: 'Umfassende Healthcare-Plattform mit mehreren Diensten'
+      de: 'Umfassende Healthcare-Plattform mit mehreren Diensten',
+      ru: 'Комплексная платформа здравоохранения с множеством сервисов'
     },
     descriptions: {
       en: 'Worked on a large-scale healthcare platform consisting of patient-facing applications, internal hospital systems, microservices, and data pipelines. Contributed to multiple layers including the landing page, mobile app, patient portal, internal tools, and analytics dashboards.',
       pt: 'Trabalhei em uma plataforma de saúde em larga escala consistindo de aplicações voltadas ao paciente, sistemas internos hospitalares, microserviços e pipelines de dados. Contribuí em múltiplas camadas incluindo landing page, app mobile, portal do paciente, ferramentas internas e dashboards de analytics.',
-      de: 'Arbeitete an einer großangelegten Healthcare-Plattform bestehend aus patientenorientierten Anwendungen, internen Krankenhaussystemen, Microservices und Datenpipelines. Trug zu mehreren Schichten bei, einschließlich Landing Page, Mobile App, Patientenportal, internen Tools und Analytics-Dashboards.'
+      de: 'Arbeitete an einer großangelegten Healthcare-Plattform bestehend aus patientenorientierten Anwendungen, internen Krankenhaussystemen, Microservices und Datenpipelines. Trug zu mehreren Schichten bei, einschließlich Landing Page, Mobile App, Patientenportal, internen Tools und Analytics-Dashboards.',
+      ru: 'Работал над крупномасштабной платформой здравоохранения, состоящей из приложений для пациентов, внутренних больничных систем, микросервисов и конвейеров данных. Внес вклад в несколько уровней, включая целевую страницу, мобильное приложение, портал пациентов, внутренние инструменты и панели аналитики.'
     },
     highlights: {
       en: [
@@ -474,6 +561,14 @@ export const experiences: Experience[] = [
         'PowerBI-Dashboards für Business Intelligence erstellt',
         'CRON-Jobs für Push-Benachrichtigungen, E-Mails und SMS implementiert',
         'PHP-Legacy-API mit WhatsApp Bot integriert'
+      ],
+      ru: [
+        'Разработал функции портала пациентов с React и Next.js',
+        'Построил микросервис платежей GERACAOPAGAMENTOS с NestJS',
+        'Создал скрипты DAG для конвейеров данных из BigQuery в MySQL',
+        'Создал панели PowerBI для бизнес-аналитики',
+        'Внедрил CRON-задания для push-уведомлений, email и SMS',
+        'Интегрировал устаревший PHP API с ботом WhatsApp'
       ]
     }
   },
@@ -482,24 +577,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Presidente Prudente, SP, Brazil',
       pt: 'Presidente Prudente, SP, Brasil',
-      de: 'Presidente Prudente, SP, Brasilien'
+      de: 'Presidente Prudente, SP, Brasilien',
+      ru: 'Президенти-Пруденти, Сан-Паулу, Бразилия'
     },
     sector: 'technology',
     technologies: ['nestjs', 'postgresql', 'html', 'css', 'sass'],
     titles: {
       en: 'Support Ticket Management System',
       pt: 'Sistema de Gestão de Chamados de Suporte',
-      de: 'Support-Ticket-Verwaltungssystem'
+      de: 'Support-Ticket-Verwaltungssystem',
+      ru: 'Система управления тикетами поддержки'
     },
     shortDescriptions: {
       en: 'Internal tool for IT support and client onboarding',
       pt: 'Ferramenta interna para suporte de TI e onboarding de clientes',
-      de: 'Internes Tool für IT-Support und Kunden-Onboarding'
+      de: 'Internes Tool für IT-Support und Kunden-Onboarding',
+      ru: 'Внутренний инструмент для IT-поддержки и онбординга клиентов'
     },
     descriptions: {
       en: 'Built a web application for organizing support tickets and activities for the Support and Onboarding teams. The system streamlined internal communication and helped track client issues from creation to resolution.',
       pt: 'Construí uma aplicação web para organizar chamados de suporte e atividades para as equipes de Suporte e Onboarding. O sistema otimizou a comunicação interna e ajudou a rastrear problemas de clientes da criação à resolução.',
-      de: 'Erstellte eine Webanwendung zur Organisation von Support-Tickets und Aktivitäten für die Support- und Onboarding-Teams. Das System optimierte die interne Kommunikation und half bei der Nachverfolgung von Kundenproblemen von der Erstellung bis zur Lösung.'
+      de: 'Erstellte eine Webanwendung zur Organisation von Support-Tickets und Aktivitäten für die Support- und Onboarding-Teams. Das System optimierte die interne Kommunikation und half bei der Nachverfolgung von Kundenproblemen von der Erstellung bis zur Lösung.',
+      ru: 'Создал веб-приложение для организации тикетов поддержки и деятельности команд поддержки и онбординга. Система оптимизировала внутреннюю коммуникацию и помогла отслеживать проблемы клиентов от создания до решения.'
     },
     highlights: {
       en: [
@@ -519,6 +618,12 @@ export const experiences: Experience[] = [
         'Datenbankschema mit PostgreSQL entworfen',
         'Responsives Frontend mit HTML, CSS und SASS erstellt',
         'Ticket-Workflow und Status-Tracking implementiert'
+      ],
+      ru: [
+        'Создал REST API с NestJS и документацией Swagger',
+        'Спроектировал схему базы данных с PostgreSQL',
+        'Создал адаптивный фронтенд с HTML, CSS и SASS',
+        'Реализовал рабочий процесс тикетов и отслеживание статуса'
       ]
     }
   },
@@ -527,24 +632,28 @@ export const experiences: Experience[] = [
     locationCity: {
       en: 'Presidente Prudente, SP, Brazil',
       pt: 'Presidente Prudente, SP, Brasil',
-      de: 'Presidente Prudente, SP, Brasilien'
+      de: 'Presidente Prudente, SP, Brasilien',
+      ru: 'Президенти-Пруденти, Сан-Паулу, Бразилия'
     },
     sector: 'healthcare',
     technologies: ['javascript'],
     titles: {
       en: 'Lab Results Processing Script',
       pt: 'Script de Processamento de Resultados Laboratoriais',
-      de: 'Skript zur Verarbeitung von Laborergebnissen'
+      de: 'Skript zur Verarbeitung von Laborergebnissen',
+      ru: 'Скрипт обработки лабораторных результатов'
     },
     shortDescriptions: {
       en: 'Automation script for Excel data processing',
       pt: 'Script de automação para processamento de dados Excel',
-      de: 'Automatisierungsskript für Excel-Datenverarbeitung'
+      de: 'Automatisierungsskript für Excel-Datenverarbeitung',
+      ru: 'Скрипт автоматизации для обработки данных Excel'
     },
     descriptions: {
       en: 'Created a JavaScript automation script that reads Excel files containing exam results, groups and organizes the data, and generates a new formatted file ready for import into the laboratory\'s internal system.',
       pt: 'Criei um script de automação em JavaScript que lê arquivos Excel contendo resultados de exames, agrupa e organiza os dados, e gera um novo arquivo formatado pronto para importação no sistema interno do laboratório.',
-      de: 'Erstellte ein JavaScript-Automatisierungsskript, das Excel-Dateien mit Untersuchungsergebnissen liest, die Daten gruppiert und organisiert und eine neue formatierte Datei für den Import in das interne Laborsystem generiert.'
+      de: 'Erstellte ein JavaScript-Automatisierungsskript, das Excel-Dateien mit Untersuchungsergebnissen liest, die Daten gruppiert und organisiert und eine neue formatierte Datei für den Import in das interne Laborsystem generiert.',
+      ru: 'Создал скрипт автоматизации на JavaScript, который считывает файлы Excel с результатами анализов, группирует и организует данные, а также генерирует новый отформатированный файл, готовый для импорта во внутреннюю систему лаборатории.'
     },
     highlights: {
       en: [
@@ -564,6 +673,12 @@ export const experiences: Experience[] = [
         'Verarbeitungszeit um 80% reduziert',
         'Excel-Datei-Parsing und -Generierung erstellt',
         'Erstes Programmierprojekt im beruflichen Umfeld'
+      ],
+      ru: [
+        'Автоматизировал процесс ручного ввода данных',
+        'Сократил время обработки на 80%',
+        'Создал парсинг и генерацию файлов Excel',
+        'Первый проект программирования в профессиональной среде'
       ]
     }
   }
